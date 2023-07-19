@@ -2,7 +2,7 @@ import { extractTracingHeaders } from "./handler.ts";
 import {
   assertEquals,
   assertStringIncludes,
-} from "https://deno.land/std@0.158.0/testing/asserts.ts";
+} from "https://deno.land/std@0.194.0/testing/asserts.ts";
 
 Deno.test("test extract tracing headers", () => {
   const expected1: string[] = ["x-request-id", "X-Request-ID"];
