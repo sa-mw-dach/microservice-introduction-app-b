@@ -1,4 +1,4 @@
-FROM denoland/deno:1.29.4
+FROM docker.io/denoland/deno:1.29.4
 
 WORKDIR /app
 
